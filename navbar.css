@@ -1,0 +1,250 @@
+body span{
+    color: rgba(118, 136, 164, 1);
+}
+header{
+    background: #F6F6F9;
+}
+header .header-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 47px 0 44px;
+}
+header .header-top .left{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+header .header-top .left .logo{
+    padding: 3px 6px 4px 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+    border-radius: 5px;
+}
+header .header-top .left .currency{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.left .currency .currency-item{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.left .currency .currency-item .icon {
+    color: rgba(40, 81, 147, 1);
+}
+.left .currency .currency-item .value {
+    color: rgba(122, 122, 122, 1);
+}
+
+header .header-top .right{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+header .header-top .right .top-btn {
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .header-top .right .search {
+    width: 38.1px;
+}header .header-top .right .language {
+    width: 64.76px;
+    gap: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #535353;
+}
+header .header-top .right .subscribe{
+    width: 146px;
+    gap: 8px;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+/* navbar style  */
+
+nav{
+    padding: 21px 24px;
+    width: 100%;
+    height: 68px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+    border-radius: 5px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    gap: 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgba(81, 81, 81, 1);
+    font-size: 19px;
+} 
+.banner .photo{
+    padding: 13px 0;
+}
+.banner .photo img{
+    width: 1200px;
+    height: 99px;
+
+    border: 1px solid #E0E0E0;
+}
+.container-full{
+    display: flex;
+}
+.container .covid-banner{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: #F6F6F9;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 41px 25px;
+}
+.container .covid-banner .covid-photo{
+    display: flex;
+    gap: 15px;
+    font-style: normal;
+        font-size: 20px;
+        line-height: 24px;
+    
+}
+.container .covid-banner .covid-photo .p-1{
+    color: red;
+}
+.container .covid-banner .covid-photo .p-2{
+    color: rgba(5, 177, 53, 1);
+}
+.container .left-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+.container .left-1 .politika .politika-photo{
+    display: flex;
+    margin: 5px 0;
+        padding: 5px 0;
+}
+.container .left-1 .politika .politika-photo .politika-info{
+    padding:0 20px ;
+    max-width: 512px;
+    height: 42px;
+}
+.container .right-1 .news{
+    background: rgba(246, 246, 249, 1);
+    border-radius:5px ;
+}
+.container .right-1 .news .news-info{
+    max-width:300px;
+    padding: 0 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.container .right-1 img{
+        margin-top: 20px;
+}
+.container .right-1 .news .news-info hr{
+    color: rgb(173, 41, 41);
+    size: 5px;
+}
+.content{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.content .politica .item{
+    display: flex;
+    align-items: flex-start;
+    gap: 19px;
+    margin-bottom: 18px;
+}
+.content .politica .item img{
+    width: 252px;
+    height: 143px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.content .politica .item .data .title{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+    width: 434px;
+    margin-bottom: 8px;
+}
+.content .politica .item .data .description{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #434343;
+    margin-bottom: 11px;
+    width: 512px;
+}
+.content .politica .item .data .date-time{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7688A4;
+}
+.content .semilar{
+    width: 386px;
+    min-height: 542px;
+    background: #F6F6F9;
+    border-radius: 5px;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+}
+.content .semilar .item {
+    display: flex;
+    align-items: flex-start;
+    gap: 19px;
+    margin-bottom: 18px;
+    padding-bottom: 18px;
+    border-bottom: solid 4px #E4E4E4;
+
+}
+.content .semilar .item:last-child{
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.content .semilar .item .data .title {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.content .semilar .item .data .description {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #434343;
+    margin-bottom: 11px;
+    width: 100%;
+}
+
+.content .semilar .item .data .date-time {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7688A4;
+}
